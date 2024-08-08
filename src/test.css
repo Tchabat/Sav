@@ -1,0 +1,138 @@
+.t{
+    color:yellow;
+  }
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  body{
+    /*background-image: url(1.jpg);*/
+    /*background:rgb(255, 255, 255);*/
+    background-size:cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.container{
+background: rgb(255, 255, 255);
+width: 500px;
+/*border-radius: 9px;*/
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+height: 90%;
+}
+
+.container .image{
+    /*background: url(im.png)no-repeat;*/
+    background-size: cover;
+    /*border-top-left-radius:  9px;
+    border-bottom-left-radius: 9px;*/
+    height: 581px;
+    width: 110%;
+    /*border-right: solid 1px blue;*/
+}
+.container .signup{
+justify-content: center;
+align-items: center;
+padding-bottom: 15px;
+backdrop-filter: blur(00px);
+border-top-right-radius:  9px;
+border-bottom-right-radius: 9px;
+width: 100%;
+}
+.container .signup .logtext{
+    /*text-align: center;*/
+    margin-left: 10px;
+}
+.container .signup form .field-input{
+    /*background: blue;*/
+    width: 94%;
+    padding: 8px;
+    text-align: center;
+}
+
+.container .signup form .field-input input{
+    width: 80%;
+    height: 30px;
+    /*background: rgb(77, 77, 82);*/
+    margin-left: 10px;
+}
+.container .signup form #logbutton{
+    height: 40px;
+    width: 45%; 
+    margin-left: 30px;
+    margin-top: 13px;
+    background-color:rgb(30, 41, 202);
+    color: white;
+    border-style: none;
+    border-radius: 6px;
+    transition: all ease-in 0.3s;
+}
+.container .signup form #logbutton:hover{
+    background-color: white;
+    color: blue;
+    border: solid 1px blue ;
+}
+.container .signup form {
+    justify-content: center;
+    align-items: center;
+}
+input::placeholder{
+    font-size: 18px;
+    color: rgb(147, 147, 243);
+    margin-left: 0px;
+}
+input{
+    padding-left: 10px;
+    border: none;
+    border-bottom: solid 2px blue;
+    outline-style: none;
+    font-size: 18px;
+    color: blue;
+    background-color:transparent ;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    text-align: center;
+
+}
+.container .signup form p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+
+@media (max-width: 720px){
+  .container{
+    background: rgb(255, 255, 255);
+    width: 365px;
+    /*border-radius: 9px;*/
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    height: 80%;
+    }
+}
